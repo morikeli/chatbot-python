@@ -7,14 +7,13 @@
 
 import openai
 
-"""
-    This script strictly requires one to have a functional API KEY. You can generate your API KEY at
-    https://platform.openai.com/account/api-keys
 
-"""
+# This script strictly requires one to have a functional API KEY. 
+# You can generate your API KEY at https://platform.openai.com/account/api-keys
 
-# fetch API KEY from a text file
-with open('API_KEY.txt', 'r') as f:
+
+# After generating your API KEY, create API_KEY.txt file and store your key in the file.
+with open('API_KEY.txt', 'r') as f:     # fetch API KEY in the file.
     key = f.read()
 
 openai.api_key = f"{key}"
