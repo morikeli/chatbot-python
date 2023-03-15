@@ -1,5 +1,5 @@
 """
-    ©️ 2023 MORI KELI | ALLRIGHTS RESERVED.
+    ©️ 2023 MORI KELI | ALL RIGHTS RESERVED.
     This is a simple chatbot integrated with OpenAI's chatGPT library.
     The program uses commend-line interface (CLI), hence 
     all questions and responses are asked and displayed at the terminal or CMD respectively.
