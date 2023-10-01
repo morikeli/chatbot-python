@@ -1,7 +1,7 @@
 """
     ©️ 2023 MORI KELI | ALL RIGHTS RESERVED.
     This is a simple chatbot integrated with OpenAI's chatGPT library.
-    The program uses commend-line interface (CLI), hence 
+    The program uses command-line interface (CLI), hence 
     all questions and responses are asked and displayed at the terminal or CMD respectively.
 """
 
@@ -22,7 +22,7 @@ messages = []
 
 while True:
     """
-        Create an infinite loop so that the user can askm questions as long as he/she wants.
+        Create an infinite loop so that the user can ask questions as long as he/she wants.
         A user can terminate the process by pressing Ctrl + C or Ctrl + Z at the terminal/CMD.
     """
     user = input('Enter your question: ')
